@@ -1,10 +1,13 @@
 #' ---
 #' title: "R tidyverse workshop"
-#' author: "fixme"
+#' author: "`Carpentry@UiO`"
 #' date: "`r format(Sys.Date())`"
 #' output: github_document
 #' ---
- 
+
+#' *Read more about this type of document in 
+#' [Chapter 20 of "Happy Git with R"](http://happygitwithr.com/r-test-drive.html)*
+#'  
 #' Uncomment the following lines to install necessary packages
 
 #install.packages("tidyverse")
@@ -23,8 +26,7 @@ ggplot(gapminder)+
   geom_point(mapping = aes(x=gdpPercap, y=lifeExp))
 
 #' Generally speaking ggplot2 syntax follows the template:
-#' 
-#' `ggplot(<DATA>) +
-#'   geom_<GEOM_FUNCTION>(mapping=aes(<AESTETICS>))`
-#' 
+# ggplot(<DATA>) +
+#   geom_<GEOM_FUNCTION>(mapping=aes(<AESTETICS>))
+
 #' Let's learn some more about `ggplot2` and its functions!

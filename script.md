@@ -1,33 +1,33 @@
 R tidyverse workshop
 ================
-fixme
+`Carpentry@UiO`
 2018-02-15
 
-Uncomment these lines to install libraries, assuming you haven’t done so
-yet
+*Read more about this type of document in [Chapter 20 of “Happy Git with
+R”](http://happygitwithr.com/r-test-drive.html)*
+
+Uncomment the following lines to install necessary packages
 
 ``` r
-#this may take some time
 #install.packages("tidyverse")
 #install.packages("maps")
 #install.packages("gapminder")
 ```
 
-First we need to load libraries installed
-    previously
+First we need to load libraries installed previously
 
 ``` r
 library(tidyverse)
 ```
 
-    ## -- Attaching packages ------------------------------ tidyverse 1.2.1 --
+    ## -- Attaching packages ----------- tidyverse 1.2.1 --
 
     ## v ggplot2 2.2.1     v purrr   0.2.4
     ## v tibble  1.4.2     v dplyr   0.7.4
     ## v tidyr   0.8.0     v stringr 1.2.0
     ## v readr   1.1.1     v forcats 0.2.0
 
-    ## -- Conflicts --------------------------------- tidyverse_conflicts() --
+    ## -- Conflicts -------------- tidyverse_conflicts() --
     ## x dplyr::filter() masks stats::filter()
     ## x dplyr::lag()    masks stats::lag()
 
@@ -49,6 +49,9 @@ ggplot(gapminder)+
 
 Generally speaking ggplot2 syntax follows the template:
 
-`ggplot(<DATA>) +` `geom_<GEOM_FUNCTION>(mapping=aes(<AESTETICS>))`
+``` r
+# ggplot(<DATA>) +
+#   geom_<GEOM_FUNCTION>(mapping=aes(<AESTETICS>))
+```
 
 Let’s learn some more about `ggplot2` and its functions\!
